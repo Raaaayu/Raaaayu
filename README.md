@@ -13,8 +13,8 @@ where measurement of spend, acquisition and customer behaviour drives the decisi
 
 Most of my experience comes from banking, audit and energy – areas where every number has to reconcile.
 I now want to apply the same discipline outside finance: marketing and advertising effectiveness, e-commerce,
-customer behaviour and product analytics. My career started in a media agency, planning brand budgets
-and KPIs, and that is the kind of problem I want to come back to – this time with the data analysis,engineering
+customer and player behaviour, and product analytics – including games. My career started in a media agency, planning brand budgets
+and KPIs, and that is the kind of problem I want to come back to – this time with the data analysis, engineering
 and statistics toolkit I have built since.
 
 ## Background
@@ -26,7 +26,15 @@ and statistics toolkit I have built since.
 - **Media and advertising** – brand budgets, campaign KPIs and sales and marketing dashboards
 - M.Sc. in Advanced Analytics – Big Data and M.Sc. in Management of Innovation
 
-## Featured project
+## Featured projects
+
+**[Flood-It! – player retention and churn](https://github.com/Raaaayu/game_analytics_churn)**
+Retention analysis of a mobile puzzle game on Firebase/GA4 event data in BigQuery: install cohorts, a churn definition
+validated against uninstall events, D1/D7/D30 retention, and a root-cause investigation of a ~40% drop in next-day
+retention (ruling out a new app version, platform, paid campaigns, player mix and day-0 behaviour).
+Logistic regression (statsmodels) with odds ratios and confidence intervals, cross-validated AUC (scikit-learn):
+first-session playtime is the strongest predictor of a player coming back.
+README written as a memo for a product manager (documentation in Polish).
 
 **[TheLook – e-commerce analytics](https://github.com/Raaaayu/thelook-ecommerce-analytics)**
 End-to-end analysis of an online fashion store on BigQuery: data quality checks, customer and product EDA,
@@ -40,8 +48,8 @@ Live KPI dashboard built on BigQuery views, refreshed and monitored with GitHub 
 
 | Area | Tools and methods |
 |---|---|
-| Data & engineering | SQL (BigQuery, MS SQL Server, T-SQL), Python (pandas, matplotlib), R, Databricks, ETL, IBM SPSS Modeler |
-| Analytics & modelling | KPI design, statistical testing, segmentation, machine learning for risk scoring |
+| Data & engineering | SQL (BigQuery, MS SQL Server, T-SQL), Python (pandas, statsmodels, scikit-learn, matplotlib), R, Databricks, ETL, IBM SPSS Modeler |
+| Analytics & modelling | KPI design, statistical testing, segmentation, cohort and retention analysis, logistic regression, event data (GA4/Firebase), machine learning for risk scoring |
 | BI & visualization | Power BI, Looker Studio, Advanced Excel |
 | Automation & workflow | Git, GitHub Actions, Google Cloud, Jira, Confluence, BPMN |
 | Working with people | stakeholder reporting, team leadership, design thinking |
