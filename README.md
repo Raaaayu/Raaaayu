@@ -13,7 +13,7 @@ where measurement of spend, acquisition and customer behaviour drives the decisi
 
 Most of my experience comes from banking, audit and energy – areas where every number has to reconcile.
 I now want to apply the same discipline outside finance: marketing and advertising effectiveness, e-commerce,
-customer and player behaviour, and product analytics – including games. My career started in a media agency, planning brand budgets
+customer behaviour and product analytics. My career started in a media agency, planning brand budgets
 and KPIs, and that is the kind of problem I want to come back to – this time with the data analysis, engineering
 and statistics toolkit I have built since.
 
